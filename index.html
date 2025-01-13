@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>りょうめいホームページ</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        #language-selector {
+            margin-bottom: 20px;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        #links {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="language-selector">
+        <select id="language">
+            <option value="jp">🇯🇵</option>
+            <option value="en">🇺🇸/🇬🇧</option>
+        </select>
+    </div>
+
+    <div id="datetime" style="margin-bottom: 20px; font-weight: bold;"></div>
+    <div id="content">
+        <p id="description"></p>
+        <p id="favorites"></p>
+        <p id="respect"></p>
+    </div>
+
+    <div id="links">
+        <a href="https://orteil.dashnet.org/cookieclicker">CookieClicker</a><br>
+        <a href="https://discord.com/channels/@me">Discord</a><br>
+        <a href="https://atcoder.jp/">AtCoder</a><br>
+        <a href="https://atcoder.jp/contests/APG4b/tasks">APG4b</a><br>
+        <a href="https://atcoder.jp/contests/abs">ABS</a><br>
+        <a href="https://github.com/">GitHub</a><br>
+        <a href="https://www.youtube.com/watch?v=WsKUywLTrr0&list=WL">GitHubの動画</a><br>
+    </div>
+
+    <p id="footer-text">ryomei © <span id="current-year"></span> | <a href="file:///C:/Users/2023016056/Desktop/りょうめいホームページ/privacypolicy.html">privacy policy</a></p>
+</body>
+</html>
